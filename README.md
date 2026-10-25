@@ -15,4 +15,4 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 - CSS
 - Git dan Github
 ## Tautan
- menyusul setelah *deploy* ke Vercel- Dibuat oleh: Yonatan Lintang Pamungkas, SMK Brantas Karangkates
+ Vercel- https://yonatan-tugasrumah.vercel.app/ Dibuat oleh: Yonatan Lintang Pamungkas, SMK Brantas Karangkates
