@@ -1,6 +1,3 @@
-// Tugas Minggu 06: lima soal logika JavaScript
-// File ini dihubungkan ke index.html dengan <script src="js/logika.js" defer></script>
-
 // Soal 1: ganjil atau genap
 function ganjilGenap(angka) {
   if (angka % 2 === 0) {

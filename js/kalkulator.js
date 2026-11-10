@@ -38,3 +38,25 @@ tombol.addEventListener("click", () => {
   const rata = hitungRataRata(tugas, uts, uas);
   hasil.textContent = `Rata-rata ${rata.toFixed(1)}, predikat ${predikat(rata)}`;
 });
+
+const tombolTema = document.querySelector("#tombol-tema");
+if (tombolTema)
+    tombolTema.addEventListener("click", () => {
+        document.body.classList.toggle("gelap");
+        if (document.body.classList.contains("gelap")) {
+            tombolTema.textContent = "Mode Terang";
+        } else {
+            tombolTema.textContent = "Mode Gelap";
+        }
+    });
+
+// 3. Penghitung karakter pesan (halaman Kontak)
+const kotakPesan = document.querySelector("#pesan");
+const hitungKarakter = document.querySelector("#hitung-karakter");
+
+if (kotakPesan) {
+    kotakPesan.addEventListener("input", () => {
+        hitungKarakter.textContent = `${kotakPesan.value.length}/300
+karakter`;
+    });
+}

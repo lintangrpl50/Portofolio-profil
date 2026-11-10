@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YONATAN lINTANG PAMUNGKAS | Beranda</title>
+  <title>Yonatan Lintang Pamungkas | Beranda</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>>
-  <script src="js/latihan.js" defer></script>>
+  <script src="js/main.js" defer></script>
+  <script src="js/latihan.js" defer></script>
+  <script src="js/logika.js" defer></script>
 </head>
 <body>
   <header>
     <div class="container navbar">
-      <h1>Yonatan  Lintang Pmungkas</h1>
+      <h1>Yonatan Lintang Pamungkas</h1>
       <nav class="menu-laptop">
         <ul>
           <li><a href="index.html">Beranda</a></li>
@@ -35,6 +36,7 @@
           </ul>
         </nav>
       </details>
+       <button type="button" id="tombol-tema" class="tombol-tema">Mode Gelap</button>
     </div>
   </header>
 
@@ -76,11 +78,8 @@
 
         <section class="kartu">
           <h2>Keahlian</h2>
-          <ul>
-            <li>CSS (sedang dipelajari)</li>
-            <li>Mengetik cepat</li>
-            <li>Desain Halaman Web menggunakan FIGMA (sedang di pelajari)</li>
-          </ul>
+          <ul id="daftar-skill"></ul>
+          <p id="jumlah-skill"></p>
         </section>
       </div>
 
