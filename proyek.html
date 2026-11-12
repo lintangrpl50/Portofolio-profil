@@ -11,6 +11,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
+  <script src="js/latihan.js" defer></script>
 </head>
 <header>
   <div class="container navbar">
@@ -21,6 +22,7 @@
         <li><a href="proyek.html">Proyek</a></li>
         <li><a href="kalkulator.html">Kalkulator</a></li>
         <li><a href="kontak.html">Kontak</a></li>
+
         <body>
       </ul>
     </nav>
@@ -44,13 +46,21 @@
       <h2>Proyek Saya</h2>
       <p>Kumpulan hasil belajar saya di Kelas Industri UBIG.</p>
       <div class="filter">
-
-        <button type="button" class="tombol-filter" id="filter-semua">Semua</button>
-        <button type="button" class="tombol-filter" id="filter-javascript">JavaScript</button>
-
-      </div>
+  <button type="button" class="tombol-filter" id="filter-semua">Semua</button>
+  <button type="button" class="tombol-filter" id="filter-html">HTML</button>
+  <button type="button" class="tombol-filter" id="filter-css">CSS</button>
+  <button type="button" class="tombol-filter" id="filter-javascript">JavaScript</button>
+</div>
       <p id="jumlah-proyek"></p>
       <div class="daftar-kartu" id="daftar-proyek"></div>
+    </section>
+
+    <section class="kartu">
+      <h2>Repositori GitHub Saya</h2>
+      <p>Daftar ini diambil langsung dari GitHub setiap kali halaman
+        dibuka.</p>
+      <p id="status-repo"></p>
+      <ul id="daftar-repo"></ul>
     </section>
 
     <!-- FAQ dengan details dan summary -->
